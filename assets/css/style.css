@@ -1,0 +1,11 @@
+.graph-area .bar
+{
+    height: 4px;
+    margin-top: 0.5%;
+}
+.graph-area .bar .progress
+{
+    background-color: blue;
+    border: 2px solid blue;
+    height: 100%;
+}
