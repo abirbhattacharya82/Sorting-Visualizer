@@ -1,11 +1,61 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+    background-color: #29061c;
+}
+.head
+{
+    background-color: #E07C24;
+    color: #29061c;
+    font-size: 300%;
+    text-align: center;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+}
+.subhead
+{
+    text-align: center;
+    color: #E07C24;
+    font-size: 200%;
+    padding: 2%;
+}
+.button-area
+{
+    display: flex;
+    background-color: #E07C24;
+    justify-content: center;
+}
+.button-area button
+{
+    width: 20%;
+    border: 1px solid #29061c;
+    background-color: transparent;
+    color: #29061c;
+    font-size: 200%;
+}
+.button-area button:hover
+{
+    border-bottom: 1px solid #E07C24;
+    background-color: #29061c;
+    color: #E07C24;
+}
+.graph-area
+{
+    margin-left: 20%;
+    margin-right: 20%;
+}
 .graph-area .bar
 {
-    height: 4px;
+    height: 1px;
     margin-top: 0.5%;
 }
 .graph-area .bar .progress
 {
-    background-color: blue;
-    border: 2px solid blue;
+    background-color: #E07C24;
+    border: 1px solid #E07C24;
     height: 100%;
 }
