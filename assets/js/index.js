@@ -36,7 +36,6 @@ async function bubble_sort()
             }
         }
     }
-    console.log(a);
 }
 async function selection_sort()
 {
@@ -61,5 +60,34 @@ async function selection_sort()
             document.getElementById(y).style.width=""+a[min_idx]+"%";
         }
     }
-    console.log(a);
 }
+async function insertion_sort() 
+{ 
+    var n=a.length;
+    let i, key, j; 
+    for (i = 1; i < n; i++)
+    { 
+        key = a[i]; 
+        j = i - 1; 
+        while (j >= 0 && a[j] > key)
+        { 
+            a[j + 1] = a[j]; 
+            j = j - 1;
+            await sleep(1)
+            {
+                var x=""+(j+1);
+                document.getElementById(x).style.width=""+a[j+1]+"%";
+            }
+        } 
+        a[j + 1] = key;
+    }
+    for(i=0;i<n;i++)
+    {
+        await sleep(1)
+        {
+            var x=""+(i);
+            console.log(x);
+            document.getElementById(x).style.width=""+a[i]+"%";
+        }
+    }
+} 

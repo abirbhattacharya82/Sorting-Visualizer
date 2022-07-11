@@ -59,3 +59,12 @@ body
     border: 1px solid #E07C24;
     height: 100%;
 }
+.footer
+{
+    color: #E07C24;
+    font-size: 100%;
+    text-align: center;
+    position:fixed;
+    width: 100%;
+    padding-top: 10%;
+}
